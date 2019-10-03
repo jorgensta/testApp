@@ -1,0 +1,6 @@
+-#!/bin/sh      
+cd /testapp
+git pull
+yarn install
+node app.js
+exit
